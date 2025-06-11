@@ -13,5 +13,5 @@ jobs:
       with:
         server: 45.8.225.23
         username: testrepodeploy@@dapi.myuni.pk 
-        password: WS0yr30vvul;!}i2+D%
+        password: ${{ secrets.FTP_PASSWORD }}
         dry-run: true
