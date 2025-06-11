@@ -11,8 +11,7 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
+        server: 45.8.225.23
+        username: testrepodeploy@@dapi.myuni.pk 
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: abc/
         dry-run: true
